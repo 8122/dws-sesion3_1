@@ -22,10 +22,10 @@
                 Complete este formulario
                 <form method="POST" action="process.jsp">
                     Su nombre: <input type="text" name="name" size="26"><br>
-                    Su emai: <input type="text" name="email" size="26"><br>
+                    Su email: <input type="text" name="email" size="26"><br>
                     <input type="submit" value="Enviar">
                 </form>
-        <% }  else { %> <%-- scriplet JSP --%>
+        <% } else { %> <%-- scriplet JSP --%>
             <% String nombre, mail; %>
             <%
                 nombre = request.getParameter("name");
